@@ -1,0 +1,268 @@
+
+/* Main Heading */
+
+#main-heading
+{
+    text-align:center;
+
+    
+
+    height:800px;
+
+    background-image: url("background-images/save\ earth-1.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.heading-1
+{
+    padding-top:300px;
+    
+    height:50px;
+
+    font-family : Merriweather;
+
+    color:  orange;
+}
+
+.para
+{
+    font-size: 80px;
+    text-decoration:underline;
+
+
+}
+
+strong
+{ 
+    color:red;
+    font-size:30px;
+}
+
+/* second-heading */
+
+
+#second-heading
+{
+    text-align:center;
+    position:absolute;
+
+    left:400px;
+
+}
+
+/* third heading */
+
+.header
+{
+    font-size:20px;
+
+    border:solid 2px green;
+
+    background-color: lightcyan;
+}
+
+#third-heading
+{
+    text-align:center;
+    
+    position:relative;
+
+    top:300px;
+
+    font-family:montserrat;
+}
+
+.index
+{
+    border:solid 2px black;
+    text-align:center;
+
+    width:30%;
+
+    margin:auto;
+    
+
+    background-color:#fff;
+}
+
+
+
+/*@ media query breakpoint....*/
+
+@media (max-width:800px)
+{
+
+    .index
+   {
+
+    border:solid 2px black;
+    text-align:center;
+
+    width:60%;
+    margin:auto;
+    
+
+    background-color:#fff;
+   }
+
+
+    #third-heading
+   {
+
+      text-align:center;
+      position:static;
+   }
+   
+   #second-heading
+  {
+
+    text-align:center;
+    position:static;
+
+  }
+
+
+}
+
+
+/* carousel section */
+
+#carousel
+{
+    background-color:lightseagreen;
+
+    text-align:center;
+
+    position:relative;
+
+    top:300px;
+
+    margin-top:2%;
+    margin-bottom:7%;
+
+    padding-top:5%;
+    padding-bottom:5%;
+}
+
+.carousel-image
+{
+    width:500px;
+    height:250px;
+}
+
+
+/* media query breakpoint */
+
+@media (max-width:900px)
+{
+
+    #carousel
+    {
+        background-color:lightseagreen;
+    
+        text-align:center;
+    
+        position:static;
+    
+        margin-top:2%;
+        margin-bottom:7%;
+    
+        padding-top:5%;
+        padding-bottom:5%;
+    }
+    
+    .carousel-image
+    {
+        width:500px;
+        height:250px;
+    }
+
+}
+
+
+/* contribution section */
+
+#contribution
+{
+    background-color: lightcyan;
+
+    position:relative;
+
+    top:200px;
+
+    text-align:center;
+
+    font-family: satisfy;
+
+}
+
+
+.contri
+{
+    padding:7% 15%;
+
+}
+
+
+
+/* media querybreakpoint */
+
+@media (max-width : 900px)
+{
+    #contribution
+    {
+        background-color: lightcyan;
+    
+        position:static;
+    
+        text-align:center;
+
+        font-family: satisfy;
+    
+    }
+    
+    
+    .contri
+    {
+        padding:4% 7%;
+    
+    
+    }
+
+}
+
+/*copyright section */
+
+#copyright 
+{
+    text-align:center;
+
+    background-color:cyan;
+
+    position:relative;
+    top:200px;
+
+    font-family : satisfy;
+
+}
+
+/* @ media query breakpoints */
+
+@media (max-width:900px)
+{
+    #copyright 
+   {
+    text-align:center;
+
+    background-color:cyan;
+     position:static;
+
+     font-family : satisfy;
+   }
+      
+}
+
+
+
