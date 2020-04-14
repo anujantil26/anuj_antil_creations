@@ -49,7 +49,6 @@ strong
     position:absolute;
 
     left:400px;
-
 }
 
 /* third heading */
@@ -91,7 +90,7 @@ strong
 
 /*@ media query breakpoint....*/
 
-@media (max-width:800px)
+@media (max-width:600px)
 {
 
     .index
@@ -120,6 +119,8 @@ strong
 
     text-align:center;
     position:static;
+      
+      width:25%;
 
   }
 
@@ -155,7 +156,7 @@ strong
 
 /* media query breakpoint */
 
-@media (max-width:900px)
+@media (max-width:600px)
 {
 
     #carousel
@@ -209,7 +210,7 @@ strong
 
 /* media querybreakpoint */
 
-@media (max-width : 900px)
+@media (max-width : 600px)
 {
     #contribution
     {
@@ -250,7 +251,7 @@ strong
 
 /* @ media query breakpoints */
 
-@media (max-width:900px)
+@media (max-width:600px)
 {
     #copyright 
    {
