@@ -42,14 +42,14 @@ strong
 
 /* second-heading */
 
-
 #second-heading
 {
-    text-align:center;
-    position:absolute;
+     text-align:center;
 
-    left:400px;
+     position:relative;
 }
+
+
 
 /* third heading */
 
@@ -66,11 +66,10 @@ strong
 {
     text-align:center;
     
-    position:relative;
-
-    top:300px;
-
     font-family:montserrat;
+
+    position:relative;
+    bottom:50px;
 }
 
 .index
@@ -90,7 +89,7 @@ strong
 
 /*@ media query breakpoint....*/
 
-@media (max-width:600px)
+@media (max-width:800px)
 {
 
     .index
@@ -114,17 +113,11 @@ strong
       position:static;
    }
    
-   #second-heading
-  {
-
-    text-align:center;
-    position:static;
-      
-      width:12%;
-
-  }
-
-
+   .save-earth-3
+   {
+       width:350px;
+       height:300px;
+   }
 }
 
 
@@ -136,9 +129,7 @@ strong
 
     text-align:center;
 
-    position:relative;
-
-    top:300px;
+    
 
     margin-top:2%;
     margin-bottom:7%;
@@ -156,7 +147,7 @@ strong
 
 /* media query breakpoint */
 
-@media (max-width:600px)
+@media (max-width:900px)
 {
 
     #carousel
@@ -170,14 +161,18 @@ strong
         margin-top:2%;
         margin-bottom:7%;
     
-        padding-top:5%;
-        padding-bottom:5%;
+
     }
     
     .carousel-image
     {
-        width:500px;
+        width:400px;
         height:250px;
+    }
+
+    .carousel-item
+    {
+        padding:2% 5%;
     }
 
 }
@@ -189,9 +184,7 @@ strong
 {
     background-color: lightcyan;
 
-    position:relative;
-
-    top:200px;
+    
 
     text-align:center;
 
@@ -210,7 +203,7 @@ strong
 
 /* media querybreakpoint */
 
-@media (max-width : 600px)
+@media (max-width : 900px)
 {
     #contribution
     {
@@ -242,8 +235,7 @@ strong
 
     background-color:cyan;
 
-    position:relative;
-    top:200px;
+
 
     font-family : satisfy;
 
@@ -251,7 +243,7 @@ strong
 
 /* @ media query breakpoints */
 
-@media (max-width:600px)
+@media (max-width:900px)
 {
     #copyright 
    {
